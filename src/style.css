@@ -1,0 +1,30 @@
+.login-form {
+    height:100%;
+}
+
+.login-form div {
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    width: 300px;
+}
+
+.btn-login {
+    width: 300px;
+    margin-top: 15px;
+    background-color: #ff1940;
+    color: white;
+}
+
+.left-panel{
+    padding: 15px;
+    background-color: #ff1940;
+    color: white;
+    height:100%;
+}
+
+.left-panel .username {
+    font-size: 20px;
+    font-weight: bold;
+}
