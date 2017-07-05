@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import Service from '../services/services';
 
+/*
+* Component for list of char rooms in the left panel
+*/
 export default class ChatRooms extends Component {
     constructor(props) {
         super(props);

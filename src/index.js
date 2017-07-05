@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import ChatApp from './components/chat-app'
 
+/*
+* Main app component
+*/
 class App extends Component {
     constructor(props) {
         super(props);
@@ -23,6 +26,9 @@ class App extends Component {
         this.setState({usernameSubmitted: true})
     }
 
+    /*
+     * If username is submitted, renders the Chat Application, otherwise renders the Login page
+    */
     render() {
         if (this.state.usernameSubmitted && this.state.username !== "") {
             return (

@@ -33,6 +33,7 @@
     background-color: #ff1940;
     color: white;
     height:100%;
+    width: 300px;
 }
 
 .left-panel .username {
@@ -146,3 +147,4 @@ html, body {
     float:right;
     color:white;
 }
+

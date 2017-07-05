@@ -3,6 +3,9 @@ import Messages from './chat-messages';
 import ChatInput from './chat-input';
 import Service from '../services/services';
 
+/*
+* Component for room details like users in the room and chat room messages
+*/
 export default class ChatRoomDetails extends Component{
     constructor(props) {
         super(props);

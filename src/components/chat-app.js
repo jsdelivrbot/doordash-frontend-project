@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import ChatRooms from './chat-rooms';
 import ChatRoomDetails from './chat-room-details';
 
+/*
+* Component for chat application. Shows a list of chat rooms on the left and messages on the right
+*/
 export default class ChatApp extends Component {
     constructor(props) {
         super(props);
