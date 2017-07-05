@@ -32,8 +32,8 @@ class App extends Component {
         return (
             <form onSubmit = {this.onUsernameSubmit} className="login-form">
                 <div>
-                    <input className = "form-control" onChange = {this.onUsernameChange} type = "text" 
-                        placeholder = "Type your username..." 
+                    <input type="text" className = "form-control" onChange = {this.onUsernameChange} type = "text" 
+                        placeholder = "Type your username..." required
                     />
                     <button className = "btn btn-login" type = "submit">Join the DoorDash Chat!!</button>
                 </div>

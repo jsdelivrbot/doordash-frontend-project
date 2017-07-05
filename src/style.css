@@ -17,8 +17,19 @@
     color: white;
 }
 
+.user-info {
+    padding: 10px;
+}
+
+.user-info .status {
+    display: block;
+    font-size: 12px;
+}
+
 .left-panel{
-    padding: 15px;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
     background-color: #ff1940;
     color: white;
     height:100%;
@@ -27,4 +38,111 @@
 .left-panel .username {
     font-size: 20px;
     font-weight: bold;
+}
+
+.chat-rooms{
+    list-style-type: none;
+    padding-top:20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.chat-rooms li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.chat-rooms li:hover {
+    background-color: darkred; 
+}
+
+.chat-rooms .selected {
+    background-color: brown;
+}
+
+.room-details {
+    height: 70px;
+    position: fixed;
+    width: 50%;
+    text-align: center;
+    padding-top: 10px; 
+    color: gray;
+}
+
+.room-details .room-name {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px; 
+}
+
+.room-details .users {
+    font-size: 12px;
+}
+
+.chat-input {
+    height: 60px;
+    bottom: 0px;
+    position: fixed;
+    width: 50%; 
+    padding: 20px;
+}
+
+.chat-input input {
+    width: 80%;
+    display: inline-block;
+}
+
+.messages {
+    position: fixed;
+    top: 70px;
+    bottom: 60px;
+    overflow: auto;
+    width: 50%;
+    background-color: whitesmoke;
+    border-top: 1px solid LightGray; 
+    border-bottom: 1px solid LightGray; 
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;  
+}
+
+.active-user {
+    color: #ff1940;
+}
+
+.main-panel {
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+    font-size:14px;
+}
+
+.old-message .message, .new-message .message{
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    margin-top: 10px;
+    clear:both;
+}
+
+.old-message .message {
+    background-color: white;
+    float: left;
+    color: gray;
+}
+
+.old-message .user {
+    font-size: 12px;
+    clear:both;
+    color:gray;
+    float:left;
+    padding-left:10px;
+}
+
+.new-message .message {
+    background-color: #ff1940;
+    float:right;
+    color:white;
 }
